@@ -1,0 +1,12 @@
+{
+  "name": "api-rest-practico-javascript",
+  "version": "1.0.0",
+  "description": "Curso de práctico consumo de API REST con Javascript: Ejemplos con APIs reales (Platzi)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jacarrillob",
+  "license": "MIT"
+}
