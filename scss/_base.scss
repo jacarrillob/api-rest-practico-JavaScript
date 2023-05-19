@@ -1,0 +1,70 @@
+@use "./variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: variables.$purple-medium-3;
+}
+
+body {
+  background-color: variables.$purple-light-1;
+  color: variables.$purple-dark-2;
+  font-family: variables.$font-family-text;
+  font-weight: variables.$font-weight-text1;
+  font-size: 16px;
+  margin: 4px 0 0 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-size: 24px;
+  color: variables.$purple-dark-2;
+  font-family: variables.$font-family-title;
+  font-weight: variables.$font-weight-title1;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: variables.$purple-dark-1;
+  font-weight: variables.$font-weight-title2;
+}
+
+h3 {
+  color: variables.$purple-dark-2;
+  font-weight: variables.$font-weight-text2;
+  font-size: 16px;
+}
+
+input {
+  background-color: variables.$purple-light-2;
+  color: variables.$purple-medium-2;
+  border: none;
+  font-size: 18px;
+  padding-left: 16px;
+}
+
+input::placeholder {
+  color: variables.$purple-medium-1;
+  font-family: variables.$font-family-text;
+}
+
+button {
+  background-color: variables.$purple-dark-1;
+  border: none;
+  color: variables.$purple-light-2;
+  font-weight: variables.$font-weight-text2;
+  font-size: 14px;
+  cursor: pointer;
+}
